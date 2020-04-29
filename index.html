@@ -2,20 +2,47 @@
 <html>
     <head>
         <title>My Webpage</title>
-        <link rel="stylesheet" href="index```.css">
-    </head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @media (min-width: 700px) {
+                h1::before {
+                    content: "Joy Vehmeijer's Webpage";
+                }
+            }
+
+            @media (max-width: 699px) {
+                h1::before {
+                    content: "My Webpage!";
+                }
+            }
+        </style>
+  </head>
     <body>
-        <h1> Joy Vehmeijer's Webpage </h1>
+        <h1> </h1>
+
+          <div class="sidenav">
+ <a href="index.html">Home</a>
+ <a href="forensic.html">Forensic Science</a>
+ <a href="gapyear.html">Gap Year</a>
+ <a href="computer.html">Computer Studies</a>
+ <a href="industrieel.html">Industrieel Ontwerpen</a>
+ </div>
+
 
         <p>
           Hello, world! My name is Joy Vehmeijer, I am 17 year old girl from the Netherlands and I just finished High School.<br>
           This means that I now have to choose what my plan is going to be for next year. Am I going to college or am I going to take a gap year? <br>
           There are multiple options I am now choosing between, which are: <br>
           <ol>
-            <li> <a href="forensic.html"> Forensic Science at the Hogeschool van Amsterdam. </a> </li>
-            <li> <a href="gapyear.html">A gap year in Salamanca to learn how to speak Spanish fluently.</a> </li>
-            <li> <a href="computer.html">Artificial Intellegence at the University van Amsterdam/Computer science and Engineering at TU Delft.</a> </li>
-            <li> <a href="industrieel.html">Industrieel Ontwerpen at TU Delft. </a></li>
+            <li> Forensic Science at the Hogeschool van Amsterdam. </li>
+            <li> A gap year in Salamanca to learn how to speak Spanish fluently. </li>
+            <li> Artificial Intellegence at the University van Amsterdam/Computer science and Engineering at TU Delft.</a> </li>
+            <li> Industrieel Ontwerpen at TU Delft.</li> <br>
+          </ol>
+          <p>
+          My first choice is for sure Forensic Science. But there is a chance I don't get to studie this, since there is a heavy selection for this studie.<br>
+          Therefore, I knew I had to have a plan B in case I don't get accepted. My plan B was taking a gap year, so I could live in Salamanca for half a year <br>
+          and learn to speak Spanish fluently.
         </p>
     </body>
 </html>
