@@ -68,6 +68,27 @@ p {
   margin-bottom: 1%;
 }
 
+.planC, .planB, .planA {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20%;
+}
+
+.planA {
+  background-color: green;
+}
+
+.planB {
+  background-color: orange;
+}
+
+.planC {
+  background-color: red;
+}
+
 /*# sourceMappingURL=index.css.map */
 
 /*# sourceMappingURL=index.css.map */
